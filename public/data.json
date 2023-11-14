@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Huffman Coding",
+        "category": "lossless",
+        "description": "A lossless data compression algorithm that is relatively simple to implement and suitable for text or image files where certain elements are more frequent."
+    },
+    {
+        "id": 2,
+        "name": "Golomb Coding",
+        "category": "general",
+        "description": "Especially effective for data with exponential distributions. It could be practical for images with lots of repetitive information."
+    },
+    {
+        "id": 3,
+        "name": "Arithmetic Coding",
+        "category": "lossless",
+        "description": "More efficient than Huffman coding, but also more complex. It's a form of lossless encoding that could be used for high-quality image compression."
+    },
+    {
+        "id": 4,
+        "name": "LZW Coding",
+        "category": "lossless",
+        "description": "This is a lossless compression algorithm that's good for images with repeated patterns. However, it might not be the most efficient for high-color-depth images."
+    },
+    {
+        "id": 5,
+        "name": "Run-length Coding",
+        "category": "lossless",
+        "description": "Best for images with large areas of single colors, like simple icons or cartoons, but not for photographs with complex patterns."
+    },
+    {
+        "id": 6,
+        "name": "Symbol-based Coding",
+        "category": "lossless",
+        "description": "Good for specialized image formats, but might not be as universal as Huffman or Arithmetic coding."
+    },
+    {
+        "id": 7,
+        "name": "Bit-plane Coding",
+        "category": "general",
+        "description": "Works well with gray scale images where you can separate the image into several binary images, which could be practical for certain types of medical imagery or technical drawings."
+    },
+    {
+        "id": 8,
+        "name": "Block Transform Coding",
+        "category": "lossy",
+        "description": "This is at the heart of JPEG compression and is very effective for photographs. It's lossy but offers a good balance between image quality and compression ratio."
+    },
+    {
+        "id": 9,
+        "name": "Predictive Coding",
+        "category": "lossless",
+        "description": "This method predicts the pixel values in an image and encodes the difference. It's good for lossless compression but may not provide the highest compression ratios."
+    },
+    {
+        "id": 10,
+        "name": "Wavelet Coding",
+        "category": "general",
+        "description": "This is used in JPEG 2000 and offers excellent compression efficiency and scalability. It can be used for both lossy and lossless compression and is particularly good for large images that need to be streamed or processed in parts."
+    }
+]
