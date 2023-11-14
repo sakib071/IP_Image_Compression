@@ -30,12 +30,6 @@
         "description": "Best for images with large areas of single colors, like simple icons or cartoons, but not for photographs with complex patterns."
     },
     {
-        "id": 6,
-        "name": "Symbol-based Coding",
-        "category": "lossless",
-        "description": "Good for specialized image formats, but might not be as universal as Huffman or Arithmetic coding."
-    },
-    {
         "id": 7,
         "name": "Bit-plane Coding",
         "category": "general",
@@ -57,6 +51,6 @@
         "id": 10,
         "name": "Wavelet Coding",
         "category": "general",
-        "description": "This is used in JPEG 2000 and offers excellent compression efficiency and scalability. It can be used for both lossy and lossless compression and is particularly good for large images that need to be streamed or processed in parts."
+        "description": "Wavelet Coding, employed in JPEG 2000, excels in compression efficiency and scalability. Suitable for both lossy and lossless compression, it is particularly effective for streaming or processing large images in parts."
     }
 ]
